@@ -27,6 +27,7 @@ def loadUserHome(request):
         return redirect(loadLoginPage)
 
 
+
 def viewProfile(request):
     try:
         userID = request.session['userID']
